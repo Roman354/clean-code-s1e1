@@ -7,7 +7,7 @@
       rel="stylesheet">
   <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
 </head>
-<body>
+<body class="page">
   <div class="headSection">
     <img src="./eisenhower-matrix.jpg">
     <a 
@@ -18,42 +18,42 @@
   </div>
   <div class="mainSection">
     <p id="addSection">
-      <label for="newTask">Add Item</label>
+      <label class="nameSection lblNewTask" for="newTask">Add Item</label>
       <div class="addTask">
-        <input id="newTask" class="task" type="text">
+        <input id="newTask" class="task lblText" type="text">
         <button>Add</button>
       </div>
     </p>
-    <h3>Todo</h3>
+    <h3 class="nameSection">Todo</h3>
     <ul id="incTasks">
-      <li>
-        <input type="checkbox">
-        <label class="task">Pay Bills</label>
-        <input type="text" class="task">
+      <li class="element">
+        <input class="elemCheck" type="checkbox">
+        <label class="task elemText">Pay Bills</label>
+        <input type="text" class="task lblText textContent">
         <button class="edit">Edit</button>
         <button class="delete">
-          <img src="./remove.svg">
+          <img class="dltImg" src="./remove.svg">
         </button>
       </li>
-      <li class="editMode">
-        <input type="checkbox">
-        <label class="task">Go Shopping</label>
-        <input type="text" value="Go Shopping" class="task">
+      <li class="editMode element">
+        <input class="elemCheck" type="checkbox">
+        <label class="task elemText elemMode">Go Shopping</label>
+        <input type="text" value="Go Shopping" class="task textContent textMode">
         <button class="edit">Save</button>
         <button class="delete">
-          <img src="./remove.svg">
+          <img class="dltImg" src="./remove.svg">
         </button>
       </li>
     </ul>
-    <h3>Completed</h3>
+    <h3 class="nameSection">Completed</h3>
     <ul id="compTasks">
-      <li>
-        <input type="checkbox" checked>
-        <label class="task">See the Doctor</label>
-        <input type="text" class="task">
+      <li class="element">
+        <input class="elemCheck" type="checkbox" checked>
+        <label class="task elemText compText">See the Doctor</label>
+        <input type="text" class="task lblText textContent">
         <button class="edit">Edit</button>
         <button class="delete">
-          <img src="./remove.svg">
+          <img class="dltImg" src="./remove.svg">
         </button>
       </li>
     </ul>
