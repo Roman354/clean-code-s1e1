@@ -8,24 +8,24 @@
   <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
 </head>
 <body>
-  <div class="headSection"><img src="./eisenhower-matrix.jpg">
+  <div class="headSection">
+    <img src="./eisenhower-matrix.jpg">
     <a 
       class="moreInf" 
       href="https://goal-life.com/page/method/matrix-eisenhower">
       Want more details?
     </a>
   </div>
-  <!-- centeredMainPageElement -->
   <div class="mainSection">
-    <p id="addItemSection">
+    <p id="addSection">
       <label for="newTask">Add Item</label>
-      <div class="taskRowWrapper">
+      <div class="addTask">
         <input id="newTask" class="task" type="text">
         <button>Add</button>
       </div>
     </p>
     <h3>Todo</h3>
-    <ul id="incompleteTasks">
+    <ul id="incTasks">
       <li>
         <input type="checkbox">
         <label class="task">Pay Bills</label>
@@ -46,7 +46,7 @@
       </li>
     </ul>
     <h3>Completed</h3>
-    <ul id="completedTasks">
+    <ul id="compTasks">
       <li>
         <input type="checkbox" checked>
         <label class="task">See the Doctor</label>
