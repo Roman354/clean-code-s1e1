@@ -105,24 +105,24 @@ button:hover {
     vertical-align: middle;
 }
 
-.elemCheck {
+.element > .elemCheck {
     margin: 0 10px;
 }
-.elemText {
+.element > .elemText {
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
     width: 226px;
 }
-.textContent {
+.element > .textContent {
     width: 226px
 }
-.dltImg{
+.delete .dltImg{
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
-.dltImg:hover {
+.delete .dltImg:hover {
     transform: rotateZ(0);
 }
 
