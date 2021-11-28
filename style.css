@@ -18,8 +18,11 @@
 }
 
 @media (max-width:768px) {
-.headSection { text-align: center;
-}
+
+  .headSection { 
+    text-align: center;
+  }
+
 }
 .mainSection {
     display: block;
@@ -96,7 +99,6 @@ button:hover {
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -128,7 +130,7 @@ button:hover {
 
 /* Completed */
 .compText {
-    text-decoration: line-through
+    text-decoration: line-through;
     color: #888;
 }
 
@@ -144,4 +146,12 @@ button:hover {
 
 .editMode .elemMode {
     display:none;
+}
+
+.editMode .lblText{
+    font-size: 14px;
+    color:#333;
+    padding: 1px 2px;
+    border-radius: 3px;
+    border: 1px solid #333;
 }
