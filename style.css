@@ -32,7 +32,7 @@
 .task {
     width: 56%;
     display: inline-block;
-    flex-grow: 1
+    flex-grow: 1;
 }
 .addTask {
     display: flex;
@@ -104,7 +104,7 @@ button:hover {
     width: 226px;
 }
 .element > .textContent {
-    width: 226px
+    width: 226px;
 }
 .delete .dltImg{
     height: 2em;
@@ -117,13 +117,13 @@ button:hover {
 
 /* Completed */
 .compText .elemText  {
-    text-decoration: line-through
+    text-decoration: line-through;
     color: #888;
 }
 
 /* Edit Task */
 .textContent {
-    display: none
+    display: none;
 }
 
 .editMode .textMode {
