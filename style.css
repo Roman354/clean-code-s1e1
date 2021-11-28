@@ -69,21 +69,8 @@ button:hover {
     margin: 0;
     text-transform: uppercase;
 }
-.lblText {
-    margin: 0;
-    font-size: 18px;
-    line-height: 18px;
-    height: 21px;
-    padding: 0 9px;
-    border: 1px solid #ddd;
-    background: #fff;
-    border-radius: 6px;
-    font-family: Lato, sans-serif;
-    color: #888;
-}
-.lblText:focus {
-    color: #333;
-}
+
+
 
 /* New Task */
 .lblNewTask {
@@ -129,8 +116,8 @@ button:hover {
 }
 
 /* Completed */
-.compText {
-    text-decoration: line-through;
+.compText .elemText  {
+    text-decoration: line-through
     color: #888;
 }
 
@@ -141,7 +128,7 @@ button:hover {
 
 .editMode .textMode {
     display:inline-block;
-    width:224px
+    width:224px;
 }
 
 .editMode .elemMode {
@@ -149,9 +136,18 @@ button:hover {
 }
 
 .editMode .lblText{
-    font-size: 14px;
-    color:#333;
-    padding: 1px 2px;
-    border-radius: 3px;
-    border: 1px solid #333;
+    margin: 0;
+    font-size: 18px;
+    line-height: 18px;
+    height: 21px;
+    padding: 0 9px;
+    border: 1px solid #dDd;
+    background: #FFF;
+    border-radius: 6px;
+    font-family: Lato, sans-serif;
+    color: #888;
+} 
+
+.editMode .lblText:focus {
+    color: #333;
 }
