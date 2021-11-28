@@ -8,15 +8,15 @@
   <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
 </head>
 <body class="page">
-  <div class="headSection">
+  <header class="headSection">
     <img src="./eisenhower-matrix.jpg">
     <a 
       class="moreInf" 
       href="https://goal-life.com/page/method/matrix-eisenhower">
       Want more details?
     </a>
-  </div>
-  <div class="mainSection">
+  </header>
+  <main class="mainSection">
     <p id="addSection">
       <label class="nameSection lblNewTask" for="newTask">Add Item</label>
       <div class="addTask editMode">
@@ -24,40 +24,44 @@
         <button>Add</button>
       </div>
     </p>
-    <h3 class="nameSection">Todo</h3>
-    <ul id="incTasks">
-      <li class="element">
-        <input class="elemCheck" type="checkbox">
-        <label class="task elemText elemMode">Pay Bills</label>
-        <input type="text" class="task lblText textContent textMode">
-        <button class="edit">Edit</button>
-        <button class="delete">
-          <img class="dltImg" src="./remove.svg">
-        </button>
-      </li>
-      <li class="editMode element">
-        <input class="elemCheck" type="checkbox">
-        <label class="task elemText elemMode">Go Shopping</label>
-        <input type="text" value="Go Shopping" class="task textContent textMode lblText">
-        <button class="edit">Save</button>
-        <button class="delete">
-          <img class="dltImg" src="./remove.svg">
-        </button>
-      </li>
-    </ul>
-    <h3 class="nameSection">Completed</h3>
-    <ul id="compTasks">
-      <li class="element compText">
-        <input class="elemCheck" type="checkbox" checked>
-        <label class="task elemText  elemMode">See the Doctor</label>
-        <input type="text" class="task lblText textContent textMode">
-        <button class="edit">Edit</button>
-        <button class="delete">
-          <img class="dltImg" src="./remove.svg">
-        </button>
-      </li>
-    </ul>
-  </div>
+    <section>
+      <h3 class="nameSection">Todo</h3>
+      <ul id="incTasks">
+        <li class="element">
+          <input class="elemCheck" type="checkbox">
+          <label class="task elemText elemMode">Pay Bills</label>
+          <input type="text" class="task lblText textContent textMode">
+          <button class="edit">Edit</button>
+          <button class="delete">
+            <img class="dltImg" src="./remove.svg">
+          </button>
+        </li>
+        <li class="editMode element">
+          <input class="elemCheck" type="checkbox">
+          <label class="task elemText elemMode">Go Shopping</label>
+          <input type="text" value="Go Shopping" class="task textContent textMode lblText">
+          <button class="edit">Save</button>
+          <button class="delete">
+            <img class="dltImg" src="./remove.svg">
+          </button>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h3 class="nameSection">Completed</h3>
+      <ul id="compTasks">
+          <li class="element compText">
+            <input class="elemCheck" type="checkbox" checked>
+            <label class="task elemText  elemMode">See the Doctor</label>
+            <input type="text" class="task lblText textContent textMode">
+            <button class="edit">Edit</button>
+            <button class="delete">
+              <img class="dltImg" src="./remove.svg">
+            </button>
+          </li>
+      </ul>
+    </section>  
+  </main>
   <script src="app.js"></script>
 </body>
 </html>
