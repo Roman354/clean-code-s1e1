@@ -10,11 +10,13 @@
     display: block;
     text-align: right;
 }
-.headSection img {
+.headSection
+img {
     width: 100%;
 }
-.headSection .moreInf {
-    font-family: fantasy, cursive;
+.headSection
+.moreInf {
+  font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
@@ -41,10 +43,12 @@ ul {
     margin: 0;
     padding: 0px;
 }
-li, h3 {
+li,
+h3 {
     list-style: none;
 }
-input,button{
+input,
+button {
     outline: none;
 }
 button {
@@ -90,33 +94,40 @@ button:hover {
     justify-content: space-between;
     align-items: center;
 }
-.element > * {
+.element > 
+* {
     vertical-align: middle;
 }
 
-.element > .elemCheck {
+.element > 
+.elemCheck {
     margin: 0 10px;
 }
-.element > .elemText {
+.element > 
+.elemText {
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
     width: 226px;
 }
-.element > .textContent {
+.element > 
+.textContent {
     width: 226px;
 }
-.delete .dltImg{
+.delete 
+.dltImg {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
-.delete .dltImg:hover {
+.delete 
+.dltImg:hover {
     transform: rotateZ(0);
 }
 
 /* Completed */
-.compText .elemText  {
+.compText 
+.elemText  {
     text-decoration: line-through;
     color: #888;
 }
@@ -126,16 +137,19 @@ button:hover {
     display: none;
 }
 
-.editMode .textMode {
+.editMode 
+.textMode {
     display: inline-block;
     width: 224px;
 }
 
-.editMode .elemMode {
+.editMode 
+.elemMode {
     display: none;
 }
 
-.editMode .lblText{
+.editMode 
+.lblText {
     margin: 0;
     font-size: 18px;
     line-height: 18px;
@@ -148,6 +162,7 @@ button:hover {
     color: #888;
 } 
 
-.editMode .lblText:focus {
+.editMode 
+.lblText:focus {
     color: #333;
 }
