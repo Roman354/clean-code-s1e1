@@ -4,39 +4,39 @@
     color: #333;
     font-family: Lato, sans-serif;
 }
-.headSection {
+.header {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
-.headSection
+.header
 img {
     width: 100%;
 }
-.headSection
-.moreInf {
+.header
+.header__inf {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
 
-  .headSection { 
+  .header { 
     text-align: center;
   }
 
 }
-.mainSection {
+.main {
     display: block;
     width: 500px;
     margin: 0 auto 0;
 }
-.task {
+.main__task {
     width: 56%;
     display: inline-block;
     flex-grow: 1;
 }
-.addTask {
+.main__flex {
     display: flex;
 }
 ul {
@@ -64,7 +64,7 @@ button:hover {
     color: #3a3A3a;
 }
 /* Heading */
-.nameSection {
+.main__caption {
     color: #333;
     font-weight: 700;
     font-size: 15px;
@@ -77,16 +77,16 @@ button:hover {
 
 
 /* New Task */
-.lblNewTask {
+.main__lbl {
     display: block;
     margin: 0 0 20px;
 }
-#newTask {
+#main__input_new-task {
     width: 318px;
 }
 
 /* Task list */
-.element {
+.main__element {
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
@@ -94,62 +94,62 @@ button:hover {
     justify-content: space-between;
     align-items: center;
 }
-.element > 
+.main__element > 
 * {
     vertical-align: middle;
 }
 
-.element > 
-.elemCheck {
+.main__element > 
+.main__check {
     margin: 0 10px;
 }
-.element > 
-.elemText {
+.main__element > 
+.main__label {
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
     width: 226px;
 }
-.element > 
-.textContent {
+.main__element > 
+.main__input-text {
     width: 226px;
 }
-.delete 
-.dltImg {
+.main__btn_dlt 
+.main__img_dlt {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
-.delete 
-.dltImg:hover {
+.main__btn_dlt 
+.main__img_dlt:hover {
     transform: rotateZ(0);
 }
 
 /* Completed */
 .compText 
-.elemText  {
+.main__label  {
     text-decoration: line-through;
     color: #888;
 }
 
 /* Edit Task */
-.textContent {
+.main__input-text {
     display: none;
 }
 
-.editMode 
-.textMode {
+.main__mode 
+.main__input_active {
     display: inline-block;
     width: 224px;
 }
 
-.editMode 
-.elemMode {
+.main__mode 
+.main__label_mode {
     display: none;
 }
 
-.editMode 
-.lblText {
+.main__mode 
+.main__input_inactive {
     margin: 0;
     font-size: 18px;
     line-height: 18px;
@@ -162,7 +162,7 @@ button:hover {
     color: #888;
 } 
 
-.editMode 
-.lblText:focus {
+.main__mode
+.main__input_inactive:focus {
     color: #333;
 }
